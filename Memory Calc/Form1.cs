@@ -64,7 +64,7 @@ namespace Memory_Calc
             switch (operation) //equations for each operator (+, -, *, /)
             {
                 case "+":
-                    txtAnswer.Text = Calculator.Add(value, Double.Parse(txtAnswer.Text)).ToString(); //calling on Calculator class
+                    txtAnswer.Text = Calculator.Add(value, Double.Parse(txtAnswer.Text)).ToString(); //calling on Calculator class.
                     break; //for addition
                 case "-":
                     txtAnswer.Text = Calculator.Subtract(value, Double.Parse(txtAnswer.Text)).ToString();
